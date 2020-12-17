@@ -10,7 +10,7 @@
         <!-- <EditarProducto /> -->
       </div>
       <div v-if="porductoAction == 'agregar'">
-        <AgregarProducto />
+        <!-- <AgregarProducto /> -->
       </div>
       <div v-if="porductoAction == 'nuevo'">
         <Card />
@@ -25,7 +25,7 @@
 <script>
 import Header from '@/components/Header'
 import Card from '@/components/producto/Card'
-import AgregarProducto from '@/components/producto/AgregarProducto'
+// import AgregarProducto from '@/components/producto/AgregarProducto'
 /*import EditarProducto from '@/components/producto/EditarProducto'
 
 import CardTable from '@/components/producto/CardTable' */
@@ -42,7 +42,7 @@ export default {
   components:{
     Header,
     Card,
-    AgregarProducto
+    // AgregarProducto
    /* CardTable,
     EditarProducto,
     */
