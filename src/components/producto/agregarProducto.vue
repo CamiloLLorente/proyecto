@@ -25,7 +25,7 @@
                                   <input type="number" name="cantidad" id="cantidad" class="form-control" v-model="cantidad">
                               </div>
                               <div class="form-group">
-                                  <label for="seccion" class="text-info">seccion:</label><br>
+                                  <label for="seccion" class="text-info">Sección:</label><br>
                                   <input type="seccion" name="text" id="seccion" class="form-control" v-model="seccion">
                               </div>
                             </div>
