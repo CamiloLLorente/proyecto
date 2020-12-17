@@ -25,7 +25,7 @@
 <script>
 import Header from '@/components/Header'
 import Card from '@/components/producto/Card'
-import AgregarProducto from '@/components/producto/AgregarProducto'
+import AgregarProducto from '@/components/producto/agregarProducto'
 import EditarProducto from '@/components/producto/EditarProducto'
 
 import CardTable from '@/components/producto/CardTable' 
