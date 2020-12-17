@@ -4,7 +4,7 @@
     <div class="contenedor">
       <div v-if="porductoAction == 'home'">
         <Card />
-        <!-- <CardTable /> -->
+        <CardTable /> 
       </div>
       <div v-if="porductoAction == 'editar'">
         <!-- <EditarProducto /> -->
@@ -27,8 +27,8 @@ import Header from '@/components/Header'
 import Card from '@/components/producto/Card'
 // import AgregarProducto from '@/components/producto/AgregarProducto'
 /*import EditarProducto from '@/components/producto/EditarProducto'
-
-import CardTable from '@/components/producto/CardTable' */
+*/
+import CardTable from '@/components/producto/CardTable' 
 import { mapState } from 'vuex'
 export default {
   
@@ -42,8 +42,9 @@ export default {
   components:{
     Header,
     Card,
+    CardTable
     // AgregarProducto
-   /* CardTable,
+   /* 
     EditarProducto,
     */
 
