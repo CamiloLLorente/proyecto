@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
-    <!-- <Header />
-    <div class="contenedor">
+    <Header />
+    <!-- <div class="contenedor">
       <div v-if="porductoAction == 'home'">
         <Card />
         <CardTable />
@@ -23,8 +23,8 @@
 </template>
 
 <script>
-/* import Header from '@/components/Header'
-import Card from '@/components/producto/Card'
+import Header from '@/components/Header'
+/* import Card from '@/components/producto/Card'
 import EditarProducto from '@/components/producto/EditarProducto'
 import AgregarProducto from '@/components/producto/AgregarProducto'
 import CardTable from '@/components/producto/CardTable' */
@@ -39,8 +39,8 @@ export default {
   },
 
   components:{
-    /* Header,
-    Card,
+    Header
+    /* Card,
     CardTable,
     EditarProducto,
     AgregarProducto */
