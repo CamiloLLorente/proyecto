@@ -17,17 +17,17 @@
       <ul class="navbar-nav ml-auto topnav">
         <li class="nav-item active">
           <a class="nav-link" href="#"
-            >Home <span class="sr-only">(current)</span></a
+            >Inicio <span class="sr-only">(current)</span></a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Shop Pre-Owned</a>
+          <a class="nav-link" href="#">Productos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Clientes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#">Salir</a>
         </li>
       
       </ul>
