@@ -67,7 +67,7 @@
 
           }
           localStorage.setItem("user",data.data.username)
-          this.$router.push('dashboard')
+          this.$router.push('productos')
         }).catch(error =>{
 
             if (error.response){
